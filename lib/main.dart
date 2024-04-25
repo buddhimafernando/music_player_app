@@ -16,10 +16,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        textTheme: Theme.of(context).textTheme.apply(
-          bodyColor: Color.fromARGB(246, 246, 246, 246),
-          displayColor: Color.fromARGB(246, 246, 246, 246),       
-        ),
+        // textTheme: Theme.of(context).textTheme.apply(
+        //   bodyColor: Color.fromARGB(246, 246, 246, 246),
+        //   displayColor: Color.fromARGB(246, 246, 246, 246),       
+        // ),
       ),
       home: const HomeScreen(),
       getPages: [

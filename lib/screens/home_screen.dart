@@ -14,13 +14,17 @@ class HomeScreen extends StatelessWidget {
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
           colors: [
-            Color.fromARGB(4, 8, 28, 255),
+            Colors.white,
             Color.fromARGB( 31, 35, 58,255),
           ]
         ),
       ),
       child: Scaffold(
-        appBar: AppBar(),
+        backgroundColor: Colors.transparent,
+        appBar: AppBar(
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+        ),
         body: Container(),
       ),
     );
