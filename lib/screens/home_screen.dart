@@ -5,6 +5,24 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return 
+    
+    
+    Container(
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+          colors: [
+            Color.fromARGB(4, 8, 28, 255),
+            Color.fromARGB( 31, 35, 58,255),
+          ]
+        ),
+      ),
+      child: Scaffold(
+        appBar: AppBar(),
+        body: Container(),
+      ),
+    );
   }
 }
