@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'screens/home_screen.dart';
-import 'screens/screens.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,9 +19,9 @@ class MyApp extends StatelessWidget {
         //   displayColor: Color.fromARGB(246, 246, 246, 246),       
         // ),
       ),
-      home: const HomeScreen(),
+      home: const MyApp(),
       getPages: [
-        GetPage(name: '/', page: ()=> const HomeScreen()),],
+        GetPage(name: '/', page: ()=> const MyApp()),],
     );
   }
 }
