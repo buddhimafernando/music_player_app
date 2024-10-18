@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:music_app/core/configs/theme/app_theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,12 +14,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-        // textTheme: Theme.of(context).textTheme.apply(
-        //   bodyColor: Color.fromARGB(246, 246, 246, 246),
-        //   displayColor: Color.fromARGB(246, 246, 246, 246),       
-        // ),
-      ),
+      theme: AppTheme.lightTheme,
       home: const MyApp(),
       getPages: [
         GetPage(name: '/', page: ()=> const MyApp()),],
