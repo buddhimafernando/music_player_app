@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\lib",
+    "\\lib\\presentation",
+    "\\lib\\presentation\\splash",
+    "\\lib\\presentation\\splash\\pages"
+  ],
+  "SelectedNode": "\\lib\\presentation\\splash\\pages\\splash.dart",
+  "PreviewInSolutionExplorer": false
+}
